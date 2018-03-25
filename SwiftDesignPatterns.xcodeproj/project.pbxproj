@@ -12,6 +12,7 @@
 		46B900EE2067950900F9E496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B900EC2067950900F9E496 /* Main.storyboard */; };
 		46B900F02067950900F9E496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46B900EF2067950900F9E496 /* Assets.xcassets */; };
 		46B900F32067950900F9E496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B900F12067950900F9E496 /* LaunchScreen.storyboard */; };
+		46B900FC20679C5800F9E496 /* WeatherDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B900FB20679C5800F9E496 /* WeatherDataVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		46B900EF2067950900F9E496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46B900F22067950900F9E496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46B900F42067950900F9E496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B900FB20679C5800F9E496 /* WeatherDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		46B900E72067950900F9E496 /* SwiftDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				46B900FA206797F900F9E496 /* Observer */,
 				46B900E82067950900F9E496 /* AppDelegate.swift */,
-				46B900EA2067950900F9E496 /* ViewController.swift */,
-				46B900EC2067950900F9E496 /* Main.storyboard */,
 				46B900EF2067950900F9E496 /* Assets.xcassets */,
-				46B900F12067950900F9E496 /* LaunchScreen.storyboard */,
 				46B900F42067950900F9E496 /* Info.plist */,
+				46B900F12067950900F9E496 /* LaunchScreen.storyboard */,
+				46B900EC2067950900F9E496 /* Main.storyboard */,
+				46B900EA2067950900F9E496 /* ViewController.swift */,
 			);
 			path = SwiftDesignPatterns;
+			sourceTree = "<group>";
+		};
+		46B900FA206797F900F9E496 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				46B900FB20679C5800F9E496 /* WeatherDataVC.swift */,
+			);
+			path = Observer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46B900EB2067950900F9E496 /* ViewController.swift in Sources */,
+				46B900FC20679C5800F9E496 /* WeatherDataVC.swift in Sources */,
 				46B900E92067950900F9E496 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
