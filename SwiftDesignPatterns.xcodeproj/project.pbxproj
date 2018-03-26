@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		469676D620691EC500D80F75 /* ChainTouchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469676D520691EC500D80F75 /* ChainTouchable.swift */; };
+		469676D820691F1500D80F75 /* TestDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469676D720691F1500D80F75 /* TestDemo.swift */; };
 		46B900E92067950900F9E496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B900E82067950900F9E496 /* AppDelegate.swift */; };
 		46B900EB2067950900F9E496 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B900EA2067950900F9E496 /* ViewController.swift */; };
 		46B900EE2067950900F9E496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B900EC2067950900F9E496 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		469676D520691EC500D80F75 /* ChainTouchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainTouchable.swift; sourceTree = "<group>"; };
+		469676D720691F1500D80F75 /* TestDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDemo.swift; sourceTree = "<group>"; };
 		46B900E52067950900F9E496 /* SwiftDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B900E82067950900F9E496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46B900EA2067950900F9E496 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		469676D420691EA000D80F75 /* ChainOfresponsibility */ = {
+			isa = PBXGroup;
+			children = (
+				469676D520691EC500D80F75 /* ChainTouchable.swift */,
+				469676D720691F1500D80F75 /* TestDemo.swift */,
+			);
+			path = ChainOfresponsibility;
+			sourceTree = "<group>";
+		};
 		46B900DC2067950900F9E496 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +71,7 @@
 		46B900E72067950900F9E496 /* SwiftDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				469676D420691EA000D80F75 /* ChainOfresponsibility */,
 				46B900FA206797F900F9E496 /* Observer */,
 				46B900E82067950900F9E496 /* AppDelegate.swift */,
 				46B900EF2067950900F9E496 /* Assets.xcassets */,
@@ -152,8 +166,10 @@
 			files = (
 				46B900EB2067950900F9E496 /* ViewController.swift in Sources */,
 				46B900FC20679C5800F9E496 /* WeatherDataVC.swift in Sources */,
+				469676D820691F1500D80F75 /* TestDemo.swift in Sources */,
 				46B900FE2067A6E900F9E496 /* KVOImpViewController.swift in Sources */,
 				46B900E92067950900F9E496 /* AppDelegate.swift in Sources */,
+				469676D620691EC500D80F75 /* ChainTouchable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
